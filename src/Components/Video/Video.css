@@ -1,0 +1,61 @@
+.video-container{
+    position: relative;
+    margin-top: 20px;
+    width: 700px;
+    left: 45px;
+}
+
+.video, .video iframe{
+    width: 100%;
+}
+
+.buttons, .likedislike, .youtubeur, .btn-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-contain{
+    padding: 0 10px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.btn svg{
+    padding: 5px;
+    margin: 5px;
+    width: max-content;
+    height: max-content;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+
+.abonne{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.abonne p{
+    padding: 1px 10px;
+}
+
+.like{
+    border-radius: 10px 0 0 10px;
+}
+
+.dislike{
+    border-radius: 0 10px 10px 0;
+}
+
+p{
+    margin: 10px;
+}
