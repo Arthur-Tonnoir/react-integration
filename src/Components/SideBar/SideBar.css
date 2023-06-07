@@ -1,0 +1,32 @@
+.sidebar{
+
+    margin-top: 10px;
+    width: 325px;
+    height: max-content;
+}
+
+.block-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-option{
+    border-bottom: 1px solid black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0 2px 0 ;
+}
+
+.row-image{
+    position: relative;
+    left: 25px;
+}
+
+.row-text{
+    position: relative;
+    left: 86px;
+}
