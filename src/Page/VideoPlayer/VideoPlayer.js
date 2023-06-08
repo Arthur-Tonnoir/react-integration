@@ -7,12 +7,13 @@ import Video from '../../Components/Video/Video';
 import SideBar from '../../Components/SideBar/SideBar';
 
 function VideoPlayer(){
-    const { title, youtubeur, like } = useParams()
+    const { title, youtubeur, like, video } = useParams()
     return (
         
         <div className='main-containers'>
             <SideBar/>
-            <Video title={title} youtubeur={youtubeur} like={like} />
+            <Video title={title} youtubeur={youtubeur} like={like} video={video}/>
+            
         </div>
     );
 }

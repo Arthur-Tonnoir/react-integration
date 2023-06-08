@@ -1,0 +1,41 @@
+.main-tab{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.main-tab{
+    display: flex;
+    width: 100%;
+}
+
+table,  tr{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.video-contain{
+    margin: 10px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 10px;
+}
+
+.video-image img{
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
