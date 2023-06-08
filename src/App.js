@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' Component={Accueil} />
-          <Route path='/videoplayer' Component={VideoPlayer} />
+          <Route path='/videoplayer/:youtubeur/:title/:like' Component={VideoPlayer} />
         </Routes>
       </Router>
     </div>

@@ -5,15 +5,15 @@ import { AiFillLike, AiFillDislike } from 'react-icons/ai';
 import { RiShareForwardLine } from 'react-icons/ri';
 import { FiSave } from 'react-icons/fi';
 
-function Video(){
+function Video(props){
     return (
         <div className='video-container'>
             <div className='video'><iframe title='test'></iframe></div>
             <div className='description'>
-                <div className='title'><h4>Titre video</h4></div>
+                <div className='title'><h4>{props.title}</h4></div>
                 <div className='buttons'>
                     <div className='left'>
-                        <p className='youtube'>Youtubeur</p>
+                        <p className='youtube'>{props.youtubeur}</p>
                         <button className='btn abonne'>
                             <p>S'abonner</p>
                         </button>
@@ -22,7 +22,7 @@ function Video(){
                         <div className=''>
                             <button className='btn like'>
                                 <AiFillLike/>
-                                <p>196</p>
+                                <p>{props.like}</p>
                             </button>
                         </div>
                         <div className=''>
