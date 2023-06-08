@@ -17,7 +17,6 @@ function btnGuide(){
 }
 function NavBar(){
     return (
-        <div>
             <nav className='ytb-nav'>
                 <div className='containers'>
                     <div className='buttons-containers'>
@@ -48,7 +47,6 @@ function NavBar(){
                     </div>
                 </div>
             </nav>
-        </div>
     );
 }
 
