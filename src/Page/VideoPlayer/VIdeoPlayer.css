@@ -1,0 +1,17 @@
+.main-tab{
+    left: 40px;
+}
+
+
+.main-tab tr{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+td{
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
